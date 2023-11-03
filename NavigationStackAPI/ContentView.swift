@@ -7,15 +7,51 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SimpleView: View {
+    
+    let value: Int;
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        //        Text("Alhamthulillah")
+        Text("\(value)")
+    }
+}
+
+struct ContentView: View {
+    
+ 
+    var body: some View {
+        
+        //        NavigationStack{
+        //
+        //            NavigationLink("Details View"){
+        //                Text("Alhamthulillah")
+        //            }
+        //        }
+        
+        //        NavigationStack{
+        //
+        //            NavigationLink {
+        //                SimpleView()
+        //            } label: {
+        //                Image(systemName: "heart.fill")
+        //                    .foregroundStyle(.red)
+        //                    .font(.largeTitle)
+        //            }
+        //
+        //        }
+        
+        
+                NavigationStack{
+        
+                    NavigationLink("SimpleVIew", value: 99)
+                        .navigationDestination(for: Int.self) { value in
+                            SimpleView(value: value)
+                        }
+                }
+        
+      
+        
     }
 }
 

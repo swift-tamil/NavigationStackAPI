@@ -11,6 +11,7 @@
 		391C0E982AF5511600CA9249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C0E972AF5511600CA9249 /* ContentView.swift */; };
 		391C0E9A2AF5511800CA9249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391C0E992AF5511800CA9249 /* Assets.xcassets */; };
 		391C0E9D2AF5511800CA9249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391C0E9C2AF5511800CA9249 /* Preview Assets.xcassets */; };
+		391C0EA42AF55B2A00CA9249 /* ListNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C0EA32AF55B2A00CA9249 /* ListNavigationLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		391C0E972AF5511600CA9249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		391C0E992AF5511800CA9249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391C0E9C2AF5511800CA9249 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		391C0EA32AF55B2A00CA9249 /* ListNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				391C0E952AF5511600CA9249 /* NavigationStackAPIApp.swift */,
 				391C0E972AF5511600CA9249 /* ContentView.swift */,
+				391C0EA32AF55B2A00CA9249 /* ListNavigationLink.swift */,
 				391C0E992AF5511800CA9249 /* Assets.xcassets */,
 				391C0E9B2AF5511800CA9249 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391C0EA42AF55B2A00CA9249 /* ListNavigationLink.swift in Sources */,
 				391C0E982AF5511600CA9249 /* ContentView.swift in Sources */,
 				391C0E962AF5511600CA9249 /* NavigationStackAPIApp.swift in Sources */,
 			);
